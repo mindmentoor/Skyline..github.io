@@ -1,5 +1,5 @@
 
-@import url('../css/fonts.css');
+@import url('fonts.css');
 
 
 html, body{
@@ -211,7 +211,7 @@ main .site-title .btn:hover{
 /* --------------- Blog Carousel ------------ */
 
 main .blog{
-    background: url('/assets /Abract01.png');
+    background: url('Abract01.png');
     background-repeat: no-repeat;
     background-position: right;
     height: 100vh;
