@@ -1,5 +1,5 @@
 
-@import url('fonts.css');
+@import url('./fonts.css');
 
 
 html, body{
@@ -471,14 +471,13 @@ footer.footer .newsletter .form-element span{
     cursor: pointer;
 }
 
-footer.footer .instagram div  img{
+footer.footer .instagram div > img{
     display: inline-block;
     width: 25%;
     height: 50%;
     margin: .3rem .4rem;
 }
-
-footer.footer .follow div i{
+footer .follow div i{
     color: var(--white);
     padding: 0 .4rem;
 }
@@ -492,7 +491,7 @@ footer.footer .rights h4 a{
     color: var(--white);
 }
 
-footer.footer .move-up{
+footer .move-up{
     position: absolute;
     right: 6%;
     top: 50%;
