@@ -1,5 +1,5 @@
 
-@import url('./fonts.css');
+@import url('../css/fonts.css');
 
 
 html, body{
@@ -211,7 +211,7 @@ main .site-title .btn:hover{
 /* --------------- Blog Carousel ------------ */
 
 main .blog{
-    background: url('Abract01.png');
+    background: url('/assets /Abract01.png');
     background-repeat: no-repeat;
     background-position: right;
     height: 100vh;
@@ -477,7 +477,8 @@ footer.footer .instagram div > img{
     height: 50%;
     margin: .3rem .4rem;
 }
-footer .follow div i{
+
+footer.footer .follow div i{
     color: var(--white);
     padding: 0 .4rem;
 }
@@ -491,7 +492,7 @@ footer.footer .rights h4 a{
     color: var(--white);
 }
 
-footer .move-up{
+footer.footer .move-up{
     position: absolute;
     right: 6%;
     top: 50%;
